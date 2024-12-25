@@ -1,0 +1,27 @@
+.profile-image {
+  display: flex;
+  /* justify-content: center; */
+  position: relative;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.profile-name
+{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.online-dot
+{
+  width: 13px;
+  height: 13px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid white;
+}
