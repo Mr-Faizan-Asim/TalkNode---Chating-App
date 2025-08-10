@@ -9,11 +9,11 @@ const {app, server} = require('./socket/index.js')
 // const app = express()
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true,
-    optionsSuccessStatus:200,
-    methods: ["GET", "POST","PUT"],
-}))
+  origin: '*',
+  credentials: true,
+  methods: ["GET", "POST", "PUT"],
+}));
+
 app.use(express.json())
 app.use(cookieParser())
 
